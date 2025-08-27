@@ -2,7 +2,7 @@ import React, { useState } from "react"; // thêm useState
 
 export default function B7() {
   const [selectedCity, setSelectedCity] = useState("");
-git remote add origin https://github.com/embedangyeunhathemattroi/PTIT_CNTT1_IT04_Session17s.git
+
   const handleCityChange = (event) => {
     setSelectedCity(event.target.value);
   };
